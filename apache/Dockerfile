@@ -1,7 +1,7 @@
 FROM httpd:bullseye
 ARG TARGETARCH
 RUN apt update \
-    && apt install -y msmtp msmtp-mta imgp libcurl3-gnutls \
+    && apt install -y msmtp msmtp-mta imgp libcurl3-gnutls vim \
     && mkdir -p /var/www/html/ \
     && mkdir -p /usr/local/libxml2.7.8/ \
     && mkdir -p /etc/php/5.3/cgi/

@@ -25,10 +25,13 @@ services:
       - MYSQL_HOST=db
       - TZ=Asia/Tokyo
     volumes:
-      - ./www:/var/www
+      - ./apache_volume/var/www:/var/www
+      - ./apache_volume/etc:/etc
+        #- ./www:/var/www
     ports:
       # PROXY(Forward PROXY)用ポート。環境変数 APACHE_PORXY_PORT によりカスタマイズ可能
-      - ${APACHE_IP:-127.0.0.1}:${APACHE_PROXY_PORT:-23128}:3128
+      #- ${APACHE_IP:-127.0.0.1}:${APACHE_PROXY_PORT:-23128}:3128
+      - 80:80
       # 以下はデバッグ用
       # - ${APACHE_IP:-127.0.0.1}:${APACHE_WEB_PORT:-10080}:80
     networks:
