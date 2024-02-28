@@ -1,0 +1,750 @@
+type=CWD msg=audit(1699762924.334:53183): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762924.334:53183): item=0 name="/var/www/html/todo/session.php" inode=4591378 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762924.334:53183): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762924.334:53184): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7f9074ee96a1 a2=80000 a3=0 items=1 ppid=739295 pid=767934 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762924.334:53184): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762924.334:53184): item=0 name="/etc/host.conf" inode=10491819 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762924.334:53184): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762924.334:53185): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7f9075517be7 a2=80000 a3=0 items=1 ppid=739295 pid=767934 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762924.334:53185): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762924.334:53185): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762924.334:53185): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762924.338:53186): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=558a3ad08650 a2=0 a3=0 items=1 ppid=739295 pid=767934 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762924.338:53186): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762924.338:53186): item=0 name="/var/www/html/todo/menu.php" inode=4591368 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762924.338:53186): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762924.338:53187): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=558a3ace6480 a2=0 a3=0 items=1 ppid=739295 pid=767934 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762924.338:53187): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762924.338:53187): item=0 name="/var/www/html/todo/footer.php" inode=4591354 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762924.338:53187): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762924.358:53188): arch=c000003e syscall=257 success=yes exit=18 a0=ffffff9c a1=7fab18242b70 a2=80000 a3=0 items=1 ppid=739283 pid=764631 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="httpd" exe="/usr/local/apache2/bin/httpd" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762924.358:53188): cwd="/var/www"
+type=PATH msg=audit(1699762924.358:53188): item=0 name="/var/www/html/todo/js/preview.js" inode=4591362 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762924.358:53188): proctitle=6874747064002D44464F524547524F554E44
+type=SYSCALL msg=audit(1699762924.362:53189): arch=c000003e syscall=257 success=yes exit=19 a0=ffffff9c a1=7fab18236b70 a2=80000 a3=0 items=1 ppid=739283 pid=739295 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="httpd" exe="/usr/local/apache2/bin/httpd" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762924.362:53189): cwd="/var/www"
+type=PATH msg=audit(1699762924.362:53189): item=0 name="/var/www/html/todo/js/purify.min.js" inode=4591363 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762924.362:53189): proctitle=6874747064002D44464F524547524F554E44
+type=SYSCALL msg=audit(1699762954.667:53190): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fb47c436be7 a2=80000 a3=0 items=1 ppid=739298 pid=767935 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762954.667:53190): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762954.667:53190): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762954.667:53190): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762954.675:53191): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ffce7223960 a2=0 a3=0 items=1 ppid=739298 pid=767935 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762954.675:53191): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762954.675:53191): item=0 name="/etc/php/5.3/cgi/php.ini" inode=10491885 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762954.675:53191): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762954.675:53192): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fb47be0881a a2=80000 a3=0 items=1 ppid=739298 pid=767935 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762954.675:53192): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762954.675:53192): item=0 name="/etc/nsswitch.conf" inode=10491856 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762954.675:53192): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762954.675:53193): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fb47c436be7 a2=80000 a3=0 items=1 ppid=739298 pid=767935 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762954.675:53193): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762954.675:53193): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762954.675:53193): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762954.675:53194): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fb47c436be7 a2=80000 a3=0 items=1 ppid=739298 pid=767935 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762954.675:53194): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762954.675:53194): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762954.675:53194): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762954.675:53195): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fb47b192016 a2=80000 a3=0 items=1 ppid=739298 pid=767935 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762954.675:53195): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762954.675:53195): item=0 name="/etc/services" inode=10491929 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762954.675:53195): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762954.679:53196): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ffce7224b00 a2=0 a3=0 items=1 ppid=739298 pid=767935 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762954.679:53196): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762954.679:53196): item=0 name="/var/www/html/todo/.user.ini" inode=4591318 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762954.679:53196): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762954.679:53197): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=563853f63928 a2=0 a3=0 items=1 ppid=739298 pid=767935 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762954.679:53197): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762954.679:53197): item=0 name="/var/www/html/todo/addtodo.php" inode=4591319 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762954.679:53197): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762954.679:53198): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=563853f660b0 a2=0 a3=0 items=1 ppid=739298 pid=767935 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762954.679:53198): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762954.679:53198): item=0 name="/var/www/html/todo/common.php" inode=4591335 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762954.679:53198): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762954.679:53199): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=563853f68400 a2=0 a3=0 items=1 ppid=739298 pid=767935 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762954.679:53199): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762954.679:53199): item=0 name="/var/www/html/todo/badapp.php" inode=4591326 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762954.679:53199): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762954.679:53200): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=563853f7e088 a2=0 a3=0 items=1 ppid=739298 pid=767935 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762954.679:53200): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762954.679:53200): item=0 name="/var/www/html/todo/session.php" inode=4591378 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762954.679:53200): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762954.679:53201): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7fb47be086a1 a2=80000 a3=0 items=1 ppid=739298 pid=767935 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762954.679:53201): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762954.679:53201): item=0 name="/etc/host.conf" inode=10491819 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762954.679:53201): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762954.679:53202): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7fb47c436be7 a2=80000 a3=0 items=1 ppid=739298 pid=767935 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762954.679:53202): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762954.679:53202): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762954.679:53202): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762954.679:53203): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=563853f6fd58 a2=0 a3=0 items=1 ppid=739298 pid=767935 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762954.679:53203): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762954.679:53203): item=0 name="/var/www/html/todo/menu.php" inode=4591368 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762954.679:53203): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762954.679:53204): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=563853f70a28 a2=0 a3=0 items=1 ppid=739298 pid=767935 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762954.679:53204): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762954.679:53204): item=0 name="/var/www/html/todo/footer.php" inode=4591354 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762954.679:53204): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.223:53205): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f7fe25c4be7 a2=80000 a3=0 items=1 ppid=739298 pid=767938 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762958.223:53205): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762958.223:53205): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.223:53205): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.231:53206): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ffe43d5d360 a2=0 a3=0 items=1 ppid=739298 pid=767938 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762958.231:53206): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762958.231:53206): item=0 name="/etc/php/5.3/cgi/php.ini" inode=10491885 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.231:53206): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.231:53207): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f7fe1f9681a a2=80000 a3=0 items=1 ppid=739298 pid=767938 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762958.231:53207): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762958.231:53207): item=0 name="/etc/nsswitch.conf" inode=10491856 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.231:53207): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.231:53208): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f7fe25c4be7 a2=80000 a3=0 items=1 ppid=739298 pid=767938 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762958.231:53208): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762958.231:53208): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.231:53208): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.231:53209): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f7fe25c4be7 a2=80000 a3=0 items=1 ppid=739298 pid=767938 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762958.231:53209): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762958.231:53209): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.231:53209): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.231:53210): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f7fe1320016 a2=80000 a3=0 items=1 ppid=739298 pid=767938 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762958.231:53210): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762958.231:53210): item=0 name="/etc/services" inode=10491929 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.231:53210): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.231:53211): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ffe43d5e500 a2=0 a3=0 items=1 ppid=739298 pid=767938 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762958.231:53211): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762958.231:53211): item=0 name="/var/www/html/todo/.user.ini" inode=4591318 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.231:53211): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.231:53212): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55782dcf6ef8 a2=0 a3=0 items=1 ppid=739298 pid=767938 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762958.231:53212): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762958.231:53212): item=0 name="/var/www/html/todo/todolist.php" inode=4591381 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.231:53212): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.231:53213): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55782dd005e8 a2=0 a3=0 items=1 ppid=739298 pid=767938 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762958.231:53213): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762958.231:53213): item=0 name="/var/www/html/todo/common.php" inode=4591335 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.231:53213): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.231:53214): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55782dd00848 a2=0 a3=0 items=1 ppid=739298 pid=767938 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762958.231:53214): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762958.231:53214): item=0 name="/var/www/html/todo/badapp.php" inode=4591326 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.231:53214): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.235:53215): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55782dd115b8 a2=0 a3=0 items=1 ppid=739298 pid=767938 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762958.235:53215): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762958.235:53215): item=0 name="/var/www/html/todo/session.php" inode=4591378 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.235:53215): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.235:53216): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7f7fe1f966a1 a2=80000 a3=0 items=1 ppid=739298 pid=767938 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762958.235:53216): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762958.235:53216): item=0 name="/etc/host.conf" inode=10491819 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.235:53216): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.235:53217): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7f7fe25c4be7 a2=80000 a3=0 items=1 ppid=739298 pid=767938 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762958.235:53217): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762958.235:53217): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.235:53217): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.235:53218): arch=c000003e syscall=257 success=yes exit=5 a0=ffffff9c a1=55782dd39550 a2=0 a3=0 items=1 ppid=739298 pid=767938 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762958.235:53218): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762958.235:53218): item=0 name="/var/www/html/todo/menu.php" inode=4591368 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.235:53218): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.235:53219): arch=c000003e syscall=257 success=yes exit=5 a0=ffffff9c a1=55782dd420b8 a2=0 a3=0 items=1 ppid=739298 pid=767938 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762958.235:53219): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762958.235:53219): item=0 name="/var/www/html/todo/footer.php" inode=4591354 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.235:53219): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.643:53220): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f70764c5be7 a2=80000 a3=0 items=1 ppid=739298 pid=767939 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762958.643:53220): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762958.643:53220): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.643:53220): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.651:53221): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ffe14f45d10 a2=0 a3=0 items=1 ppid=739298 pid=767939 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762958.651:53221): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762958.651:53221): item=0 name="/etc/php/5.3/cgi/php.ini" inode=10491885 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.651:53221): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.651:53222): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f7075e9781a a2=80000 a3=0 items=1 ppid=739298 pid=767939 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762958.651:53222): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762958.651:53222): item=0 name="/etc/nsswitch.conf" inode=10491856 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.651:53222): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.651:53223): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f70764c5be7 a2=80000 a3=0 items=1 ppid=739298 pid=767939 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762958.651:53223): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762958.651:53223): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.651:53223): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.651:53224): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f70764c5be7 a2=80000 a3=0 items=1 ppid=739298 pid=767939 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762958.651:53224): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762958.651:53224): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.651:53224): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.651:53225): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f7075221016 a2=80000 a3=0 items=1 ppid=739298 pid=767939 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762958.651:53225): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762958.651:53225): item=0 name="/etc/services" inode=10491929 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.651:53225): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.655:53226): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ffe14f46eb0 a2=0 a3=0 items=1 ppid=739298 pid=767939 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762958.655:53226): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762958.655:53226): item=0 name="/var/www/html/todo/.user.ini" inode=4591318 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.655:53226): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.655:53227): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55b6c599def8 a2=0 a3=0 items=1 ppid=739298 pid=767939 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762958.655:53227): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762958.655:53227): item=0 name="/var/www/html/todo/newtodo.php" inode=4591369 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.655:53227): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.655:53228): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55b6c599ecb8 a2=0 a3=0 items=1 ppid=739298 pid=767939 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762958.655:53228): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762958.655:53228): item=0 name="/var/www/html/todo/common.php" inode=4591335 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.655:53228): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.655:53229): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55b6c599ef18 a2=0 a3=0 items=1 ppid=739298 pid=767939 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762958.655:53229): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762958.655:53229): item=0 name="/var/www/html/todo/badapp.php" inode=4591326 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.655:53229): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.655:53230): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55b6c59b1318 a2=0 a3=0 items=1 ppid=739298 pid=767939 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762958.655:53230): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762958.655:53230): item=0 name="/var/www/html/todo/session.php" inode=4591378 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.655:53230): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.655:53231): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7f7075e976a1 a2=80000 a3=0 items=1 ppid=739298 pid=767939 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762958.655:53231): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762958.655:53231): item=0 name="/etc/host.conf" inode=10491819 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.655:53231): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.655:53232): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7f70764c5be7 a2=80000 a3=0 items=1 ppid=739298 pid=767939 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762958.655:53232): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762958.655:53232): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.655:53232): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.655:53233): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=55b6c59c35a0 a2=0 a3=0 items=1 ppid=739298 pid=767939 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762958.655:53233): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762958.655:53233): item=0 name="/var/www/html/todo/menu.php" inode=4591368 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.655:53233): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762958.659:53234): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=55b6c59a1420 a2=0 a3=0 items=1 ppid=739298 pid=767939 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762958.659:53234): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762958.659:53234): item=0 name="/var/www/html/todo/footer.php" inode=4591354 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762958.659:53234): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.099:53235): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f9ed8545be7 a2=80000 a3=0 items=1 ppid=739298 pid=767940 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762959.099:53235): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762959.099:53235): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.099:53235): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.099:53236): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fff3a2b16b0 a2=0 a3=0 items=1 ppid=739298 pid=767940 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762959.099:53236): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762959.099:53236): item=0 name="/etc/php/5.3/cgi/php.ini" inode=10491885 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.099:53236): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.099:53237): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f9ed7f1781a a2=80000 a3=0 items=1 ppid=739298 pid=767940 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762959.099:53237): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762959.099:53237): item=0 name="/etc/nsswitch.conf" inode=10491856 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.099:53237): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.099:53238): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f9ed8545be7 a2=80000 a3=0 items=1 ppid=739298 pid=767940 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762959.099:53238): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762959.099:53238): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.099:53238): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.099:53239): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f9ed8545be7 a2=80000 a3=0 items=1 ppid=739298 pid=767940 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762959.099:53239): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762959.099:53239): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.099:53239): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.099:53240): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f9ed72a1016 a2=80000 a3=0 items=1 ppid=739298 pid=767940 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762959.099:53240): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762959.099:53240): item=0 name="/etc/services" inode=10491929 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.099:53240): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.099:53241): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fff3a2b2850 a2=0 a3=0 items=1 ppid=739298 pid=767940 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762959.099:53241): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762959.099:53241): item=0 name="/var/www/html/todo/.user.ini" inode=4591318 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.099:53241): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.099:53242): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=5581035a7ef8 a2=0 a3=0 items=1 ppid=739298 pid=767940 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762959.099:53242): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762959.099:53242): item=0 name="/var/www/html/todo/import.php" inode=4591355 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.099:53242): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.099:53243): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=5581035a8af8 a2=0 a3=0 items=1 ppid=739298 pid=767940 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762959.099:53243): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762959.099:53243): item=0 name="/var/www/html/todo/common.php" inode=4591335 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.099:53243): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.099:53244): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=5581035a8d58 a2=0 a3=0 items=1 ppid=739298 pid=767940 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762959.099:53244): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762959.099:53244): item=0 name="/var/www/html/todo/badapp.php" inode=4591326 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.099:53244): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.099:53245): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=5581035bacd8 a2=0 a3=0 items=1 ppid=739298 pid=767940 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762959.099:53245): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762959.099:53245): item=0 name="/var/www/html/todo/session.php" inode=4591378 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.099:53245): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.099:53246): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7f9ed7f176a1 a2=80000 a3=0 items=1 ppid=739298 pid=767940 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762959.099:53246): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762959.099:53246): item=0 name="/etc/host.conf" inode=10491819 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.099:53246): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.099:53247): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7f9ed8545be7 a2=80000 a3=0 items=1 ppid=739298 pid=767940 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762959.099:53247): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762959.099:53247): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.099:53247): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.103:53248): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=5581035cfeb8 a2=0 a3=0 items=1 ppid=739298 pid=767940 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762959.103:53248): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762959.103:53248): item=0 name="/var/www/html/todo/menu.php" inode=4591368 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.103:53248): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.103:53249): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=5581035ab208 a2=0 a3=0 items=1 ppid=739298 pid=767940 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762959.103:53249): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762959.103:53249): item=0 name="/var/www/html/todo/footer.php" inode=4591354 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.103:53249): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.663:53250): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ff70fca3be7 a2=80000 a3=0 items=1 ppid=739298 pid=767941 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762959.663:53250): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762959.663:53250): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.663:53250): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.675:53251): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fff49f1e0f0 a2=0 a3=0 items=1 ppid=739298 pid=767941 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762959.675:53251): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762959.675:53251): item=0 name="/etc/php/5.3/cgi/php.ini" inode=10491885 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.675:53251): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.675:53252): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ff70f67581a a2=80000 a3=0 items=1 ppid=739298 pid=767941 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762959.675:53252): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762959.675:53252): item=0 name="/etc/nsswitch.conf" inode=10491856 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.675:53252): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.675:53253): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ff70fca3be7 a2=80000 a3=0 items=1 ppid=739298 pid=767941 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762959.675:53253): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762959.675:53253): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.675:53253): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.675:53254): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ff70fca3be7 a2=80000 a3=0 items=1 ppid=739298 pid=767941 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762959.675:53254): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762959.675:53254): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.675:53254): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.675:53255): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ff70e9ff016 a2=80000 a3=0 items=1 ppid=739298 pid=767941 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762959.675:53255): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762959.675:53255): item=0 name="/etc/services" inode=10491929 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.675:53255): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.679:53256): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fff49f1f290 a2=0 a3=0 items=1 ppid=739298 pid=767941 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762959.679:53256): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762959.679:53256): item=0 name="/var/www/html/todo/.user.ini" inode=4591318 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.679:53256): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.679:53257): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=5629440f2ef8 a2=0 a3=0 items=1 ppid=739298 pid=767941 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762959.679:53257): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762959.679:53257): item=0 name="/var/www/html/todo/export.php" inode=4591351 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.679:53257): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.679:53258): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=5629440f38a0 a2=0 a3=0 items=1 ppid=739298 pid=767941 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762959.679:53258): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762959.679:53258): item=0 name="/var/www/html/todo/common.php" inode=4591335 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.679:53258): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.679:53259): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=5629440f3b00 a2=0 a3=0 items=1 ppid=739298 pid=767941 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762959.679:53259): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762959.679:53259): item=0 name="/var/www/html/todo/badapp.php" inode=4591326 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.679:53259): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.679:53260): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=5629441059c8 a2=0 a3=0 items=1 ppid=739298 pid=767941 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762959.679:53260): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762959.679:53260): item=0 name="/var/www/html/todo/session.php" inode=4591378 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.679:53260): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.679:53261): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7ff70f6756a1 a2=80000 a3=0 items=1 ppid=739298 pid=767941 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762959.679:53261): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762959.679:53261): item=0 name="/etc/host.conf" inode=10491819 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.679:53261): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.679:53262): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7ff70fca3be7 a2=80000 a3=0 items=1 ppid=739298 pid=767941 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762959.679:53262): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762959.679:53262): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.679:53262): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.679:53263): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=56294411aba8 a2=0 a3=0 items=1 ppid=739298 pid=767941 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762959.679:53263): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762959.679:53263): item=0 name="/var/www/html/todo/menu.php" inode=4591368 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.679:53263): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762959.679:53264): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=56294411ac38 a2=0 a3=0 items=1 ppid=739298 pid=767941 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762959.679:53264): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762959.679:53264): item=0 name="/var/www/html/todo/footer.php" inode=4591354 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762959.679:53264): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.195:53265): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fe29b15dbe7 a2=80000 a3=0 items=1 ppid=739298 pid=767942 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762960.195:53265): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762960.195:53265): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.195:53265): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.199:53266): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fff51943580 a2=0 a3=0 items=1 ppid=739298 pid=767942 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762960.199:53266): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762960.199:53266): item=0 name="/etc/php/5.3/cgi/php.ini" inode=10491885 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.199:53266): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.199:53267): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fe29ab2f81a a2=80000 a3=0 items=1 ppid=739298 pid=767942 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762960.199:53267): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762960.199:53267): item=0 name="/etc/nsswitch.conf" inode=10491856 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.199:53267): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.199:53268): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fe29b15dbe7 a2=80000 a3=0 items=1 ppid=739298 pid=767942 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762960.199:53268): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762960.199:53268): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.199:53268): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.199:53269): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fe29b15dbe7 a2=80000 a3=0 items=1 ppid=739298 pid=767942 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762960.199:53269): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762960.199:53269): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.199:53269): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.199:53270): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fe299eb9016 a2=80000 a3=0 items=1 ppid=739298 pid=767942 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762960.199:53270): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762960.199:53270): item=0 name="/etc/services" inode=10491929 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.199:53270): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.199:53271): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fff51944720 a2=0 a3=0 items=1 ppid=739298 pid=767942 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762960.199:53271): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762960.199:53271): item=0 name="/var/www/html/todo/.user.ini" inode=4591318 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.199:53271): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.199:53272): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55f413b26058 a2=0 a3=0 items=1 ppid=739298 pid=767942 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762960.199:53272): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762960.199:53272): item=0 name="/var/www/html/todo/profile.php" inode=4591372 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.199:53272): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.199:53273): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55f413b26a28 a2=0 a3=0 items=1 ppid=739298 pid=767942 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762960.199:53273): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762960.199:53273): item=0 name="/var/www/html/todo/common.php" inode=4591335 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.199:53273): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.199:53274): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55f413b26c88 a2=0 a3=0 items=1 ppid=739298 pid=767942 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762960.199:53274): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762960.199:53274): item=0 name="/var/www/html/todo/badapp.php" inode=4591326 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.199:53274): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.199:53275): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55f413b3ce38 a2=0 a3=0 items=1 ppid=739298 pid=767942 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762960.199:53275): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762960.199:53275): item=0 name="/var/www/html/todo/session.php" inode=4591378 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.199:53275): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.199:53276): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7fe29ab2f6a1 a2=80000 a3=0 items=1 ppid=739298 pid=767942 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762960.199:53276): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762960.199:53276): item=0 name="/etc/host.conf" inode=10491819 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.199:53276): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.199:53277): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7fe29b15dbe7 a2=80000 a3=0 items=1 ppid=739298 pid=767942 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762960.199:53277): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762960.199:53277): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.199:53277): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.203:53278): arch=c000003e syscall=257 success=yes exit=5 a0=ffffff9c a1=55f413b2d120 a2=0 a3=0 items=1 ppid=739298 pid=767942 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762960.203:53278): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762960.203:53278): item=0 name="/var/www/html/todo/menu.php" inode=4591368 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.203:53278): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.203:53279): arch=c000003e syscall=257 success=yes exit=5 a0=ffffff9c a1=55f413b2d150 a2=0 a3=0 items=1 ppid=739298 pid=767942 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762960.203:53279): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762960.203:53279): item=0 name="/var/www/html/todo/footer.php" inode=4591354 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.203:53279): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.219:53280): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f7b264bcbe7 a2=80000 a3=0 items=1 ppid=739298 pid=767943 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762960.219:53280): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762960.219:53280): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.219:53280): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.227:53281): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ffcb95bed90 a2=0 a3=0 items=1 ppid=739298 pid=767943 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762960.227:53281): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762960.227:53281): item=0 name="/etc/php/5.3/cgi/php.ini" inode=10491885 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.227:53281): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.227:53282): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f7b25e8e81a a2=80000 a3=0 items=1 ppid=739298 pid=767943 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762960.227:53282): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762960.227:53282): item=0 name="/etc/nsswitch.conf" inode=10491856 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.227:53282): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.227:53283): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f7b264bcbe7 a2=80000 a3=0 items=1 ppid=739298 pid=767943 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762960.227:53283): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762960.227:53283): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.227:53283): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.227:53284): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f7b264bcbe7 a2=80000 a3=0 items=1 ppid=739298 pid=767943 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762960.227:53284): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762960.227:53284): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.227:53284): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.227:53285): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f7b25218016 a2=80000 a3=0 items=1 ppid=739298 pid=767943 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762960.227:53285): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762960.227:53285): item=0 name="/etc/services" inode=10491929 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.227:53285): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.227:53286): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ffcb95bff30 a2=0 a3=0 items=1 ppid=739298 pid=767943 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762960.227:53286): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762960.227:53286): item=0 name="/var/www/html/todo/.user.ini" inode=4591318 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.227:53286): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.227:53287): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55e7ad77a1b8 a2=0 a3=0 items=1 ppid=739298 pid=767943 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762960.227:53287): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762960.227:53287): item=0 name="/var/www/html/todo/resize.php" inode=4591377 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.227:53287): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762960.227:53288): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55e7ad7794d0 a2=0 a3=0 items=1 ppid=739298 pid=767943 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762960.227:53288): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762960.227:53288): item=0 name="/var/www/html/todo/icons/_64_ockeghem.png" inode=4590387 dev=08:02 mode=0100644 ouid=33 ogid=33 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762960.227:53288): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762962.403:53289): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fea312febe7 a2=80000 a3=0 items=1 ppid=739298 pid=767944 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762962.403:53289): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762962.403:53289): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762962.403:53289): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762962.411:53290): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ffeaa905ea0 a2=0 a3=0 items=1 ppid=739298 pid=767944 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762962.411:53290): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762962.411:53290): item=0 name="/etc/php/5.3/cgi/php.ini" inode=10491885 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762962.411:53290): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762962.415:53291): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fea30cd081a a2=80000 a3=0 items=1 ppid=739298 pid=767944 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762962.415:53291): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762962.415:53291): item=0 name="/etc/nsswitch.conf" inode=10491856 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762962.415:53291): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762962.415:53292): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fea312febe7 a2=80000 a3=0 items=1 ppid=739298 pid=767944 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762962.415:53292): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762962.415:53292): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762962.415:53292): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762962.415:53293): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fea312febe7 a2=80000 a3=0 items=1 ppid=739298 pid=767944 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762962.415:53293): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762962.415:53293): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762962.415:53293): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762962.415:53294): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fea3005a016 a2=80000 a3=0 items=1 ppid=739298 pid=767944 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762962.415:53294): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762962.415:53294): item=0 name="/etc/services" inode=10491929 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762962.415:53294): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762962.415:53295): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ffeaa907040 a2=0 a3=0 items=1 ppid=739298 pid=767944 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762962.415:53295): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762962.415:53295): item=0 name="/var/www/html/todo/.user.ini" inode=4591318 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762962.415:53295): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762962.415:53296): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55ff4887aa30 a2=0 a3=0 items=1 ppid=739298 pid=767944 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762962.415:53296): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762962.415:53296): item=0 name="/var/www/html/todo/editprofile.php" inode=4591348 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762962.415:53296): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762962.415:53297): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55ff4887b950 a2=0 a3=0 items=1 ppid=739298 pid=767944 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762962.415:53297): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762962.415:53297): item=0 name="/var/www/html/todo/common.php" inode=4591335 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762962.415:53297): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762962.415:53298): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55ff4887bbb0 a2=0 a3=0 items=1 ppid=739298 pid=767944 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762962.415:53298): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762962.415:53298): item=0 name="/var/www/html/todo/badapp.php" inode=4591326 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762962.415:53298): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762962.415:53299): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55ff48890d98 a2=0 a3=0 items=1 ppid=739298 pid=767944 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762962.415:53299): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762962.415:53299): item=0 name="/var/www/html/todo/session.php" inode=4591378 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762962.415:53299): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762962.415:53300): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7fea30cd06a1 a2=80000 a3=0 items=1 ppid=739298 pid=767944 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762962.415:53300): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762962.415:53300): item=0 name="/etc/host.conf" inode=10491819 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762962.415:53300): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762962.415:53301): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7fea312febe7 a2=80000 a3=0 items=1 ppid=739298 pid=767944 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762962.415:53301): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762962.415:53301): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762962.415:53301): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762962.415:53302): arch=c000003e syscall=257 success=yes exit=5 a0=ffffff9c a1=55ff48881930 a2=0 a3=0 items=1 ppid=739298 pid=767944 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762962.415:53302): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762962.415:53302): item=0 name="/var/www/html/todo/menu.php" inode=4591368 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762962.415:53302): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762962.419:53303): arch=c000003e syscall=257 success=yes exit=5 a0=ffffff9c a1=55ff48881960 a2=0 a3=0 items=1 ppid=739298 pid=767944 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762962.419:53303): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762962.419:53303): item=0 name="/var/www/html/todo/footer.php" inode=4591354 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762962.419:53303): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762966.103:53304): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f60b342abe7 a2=80000 a3=0 items=1 ppid=739298 pid=767945 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762966.103:53304): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762966.103:53304): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762966.103:53304): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762966.111:53305): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fffa89d8050 a2=0 a3=0 items=1 ppid=739298 pid=767945 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762966.111:53305): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762966.111:53305): item=0 name="/etc/php/5.3/cgi/php.ini" inode=10491885 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762966.111:53305): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762966.111:53306): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f60b2dfc81a a2=80000 a3=0 items=1 ppid=739298 pid=767945 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762966.111:53306): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762966.111:53306): item=0 name="/etc/nsswitch.conf" inode=10491856 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762966.111:53306): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762966.111:53307): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f60b342abe7 a2=80000 a3=0 items=1 ppid=739298 pid=767945 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762966.111:53307): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762966.111:53307): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762966.111:53307): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762966.111:53308): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f60b342abe7 a2=80000 a3=0 items=1 ppid=739298 pid=767945 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762966.111:53308): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762966.111:53308): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762966.111:53308): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762966.111:53309): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f60b2186016 a2=80000 a3=0 items=1 ppid=739298 pid=767945 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762966.111:53309): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762966.111:53309): item=0 name="/etc/services" inode=10491929 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762966.111:53309): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762966.111:53310): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fffa89d91f0 a2=0 a3=0 items=1 ppid=739298 pid=767945 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762966.111:53310): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762966.111:53310): item=0 name="/var/www/html/todo/.user.ini" inode=4591318 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762966.111:53310): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762966.111:53311): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55bdbb7daef8 a2=0 a3=0 items=1 ppid=739298 pid=767945 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762966.111:53311): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762966.111:53311): item=0 name="/var/www/html/todo/inquery.php" inode=4591358 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762966.111:53311): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762966.111:53312): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55bdbb7dbbc8 a2=0 a3=0 items=1 ppid=739298 pid=767945 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762966.111:53312): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762966.111:53312): item=0 name="/var/www/html/todo/common.php" inode=4591335 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762966.111:53312): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762966.111:53313): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55bdbb7dbe28 a2=0 a3=0 items=1 ppid=739298 pid=767945 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762966.111:53313): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762966.111:53313): item=0 name="/var/www/html/todo/badapp.php" inode=4591326 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762966.111:53313): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762966.111:53314): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=55bdbb7edf48 a2=0 a3=0 items=1 ppid=739298 pid=767945 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762966.111:53314): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762966.111:53314): item=0 name="/var/www/html/todo/session.php" inode=4591378 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762966.111:53314): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762966.111:53315): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7f60b2dfc6a1 a2=80000 a3=0 items=1 ppid=739298 pid=767945 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762966.111:53315): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762966.111:53315): item=0 name="/etc/host.conf" inode=10491819 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762966.111:53315): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762966.111:53316): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7f60b342abe7 a2=80000 a3=0 items=1 ppid=739298 pid=767945 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762966.111:53316): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762966.111:53316): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762966.111:53316): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762966.115:53317): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=55bdbb8006b8 a2=0 a3=0 items=1 ppid=739298 pid=767945 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762966.115:53317): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762966.115:53317): item=0 name="/var/www/html/todo/menu.php" inode=4591368 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762966.115:53317): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762966.115:53318): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=55bdbb7de418 a2=0 a3=0 items=1 ppid=739298 pid=767945 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762966.115:53318): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762966.115:53318): item=0 name="/var/www/html/todo/footer.php" inode=4591354 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762966.115:53318): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.359:53319): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7faf0ede3be7 a2=80000 a3=0 items=1 ppid=739298 pid=767947 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762984.359:53319): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.359:53319): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.359:53319): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.367:53320): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ffc0c5943a0 a2=0 a3=0 items=1 ppid=739298 pid=767947 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762984.367:53320): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.367:53320): item=0 name="/etc/php/5.3/cgi/php.ini" inode=10491885 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.367:53320): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.367:53321): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7faf0e7b581a a2=80000 a3=0 items=1 ppid=739298 pid=767947 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762984.367:53321): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.367:53321): item=0 name="/etc/nsswitch.conf" inode=10491856 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.367:53321): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.367:53322): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7faf0ede3be7 a2=80000 a3=0 items=1 ppid=739298 pid=767947 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762984.367:53322): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.367:53322): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.367:53322): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.367:53323): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7faf0ede3be7 a2=80000 a3=0 items=1 ppid=739298 pid=767947 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762984.367:53323): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.367:53323): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.367:53323): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.367:53324): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7faf0db3f016 a2=80000 a3=0 items=1 ppid=739298 pid=767947 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762984.367:53324): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.367:53324): item=0 name="/etc/services" inode=10491929 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.367:53324): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.367:53325): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ffc0c595540 a2=0 a3=0 items=1 ppid=739298 pid=767947 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762984.367:53325): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.367:53325): item=0 name="/var/www/html/todo/.user.ini" inode=4591318 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.367:53325): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.367:53326): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=56391a945ef8 a2=0 a3=0 items=1 ppid=739298 pid=767947 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762984.367:53326): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.367:53326): item=0 name="/var/www/html/todo/userlist.php" inode=4591382 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.367:53326): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.367:53327): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=56391a948150 a2=0 a3=0 items=1 ppid=739298 pid=767947 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762984.367:53327): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762984.367:53327): item=0 name="/var/www/html/todo/common.php" inode=4591335 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.367:53327): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.367:53328): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=56391a9466d8 a2=0 a3=0 items=1 ppid=739298 pid=767947 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762984.367:53328): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762984.367:53328): item=0 name="/var/www/html/todo/badapp.php" inode=4591326 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.367:53328): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.371:53329): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=56391a95b8d8 a2=0 a3=0 items=1 ppid=739298 pid=767947 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762984.371:53329): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762984.371:53329): item=0 name="/var/www/html/todo/session.php" inode=4591378 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.371:53329): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.371:53330): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7faf0e7b56a1 a2=80000 a3=0 items=1 ppid=739298 pid=767947 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762984.371:53330): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762984.371:53330): item=0 name="/etc/host.conf" inode=10491819 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.371:53330): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.371:53331): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7faf0ede3be7 a2=80000 a3=0 items=1 ppid=739298 pid=767947 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762984.371:53331): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762984.371:53331): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.371:53331): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.371:53332): arch=c000003e syscall=257 success=yes exit=5 a0=ffffff9c a1=56391a94b978 a2=0 a3=0 items=1 ppid=739298 pid=767947 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762984.371:53332): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762984.371:53332): item=0 name="/var/www/html/todo/menu.php" inode=4591368 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.371:53332): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.371:53333): arch=c000003e syscall=257 success=yes exit=5 a0=ffffff9c a1=56391a982b00 a2=0 a3=0 items=1 ppid=739298 pid=767947 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762984.371:53333): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762984.371:53333): item=0 name="/var/www/html/todo/footer.php" inode=4591354 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.371:53333): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.387:53334): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f6180622be7 a2=80000 a3=0 items=1 ppid=739298 pid=767948 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762984.387:53334): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.387:53334): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.387:53334): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.395:53335): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f18ef71fbe7 a2=80000 a3=0 items=1 ppid=739295 pid=767949 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762984.395:53335): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.395:53335): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.395:53335): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.395:53336): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ffdb89a6900 a2=0 a3=0 items=1 ppid=739298 pid=767948 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762984.395:53336): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.395:53336): item=0 name="/etc/php/5.3/cgi/php.ini" inode=10491885 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.395:53336): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.399:53337): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f617fff481a a2=80000 a3=0 items=1 ppid=739298 pid=767948 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762984.399:53337): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.399:53337): item=0 name="/etc/nsswitch.conf" inode=10491856 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.399:53337): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.399:53338): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f6180622be7 a2=80000 a3=0 items=1 ppid=739298 pid=767948 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762984.399:53338): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.399:53338): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.399:53338): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.399:53339): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f6180622be7 a2=80000 a3=0 items=1 ppid=739298 pid=767948 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762984.399:53339): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.399:53339): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.399:53339): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.399:53340): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f617f37e016 a2=80000 a3=0 items=1 ppid=739298 pid=767948 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762984.399:53340): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.399:53340): item=0 name="/etc/services" inode=10491929 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.399:53340): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.399:53341): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ffdb89a7aa0 a2=0 a3=0 items=1 ppid=739298 pid=767948 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762984.399:53341): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.399:53341): item=0 name="/var/www/html/todo/.user.ini" inode=4591318 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.399:53341): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.399:53342): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=5612005df1b8 a2=0 a3=0 items=1 ppid=739298 pid=767948 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762984.399:53342): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.399:53342): item=0 name="/var/www/html/todo/resize.php" inode=4591377 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.399:53342): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.399:53343): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=5612005de4d0 a2=0 a3=0 items=1 ppid=739298 pid=767948 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762984.399:53343): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762984.399:53343): item=0 name="/var/www/html/todo/icons/_64_ockeghem.png" inode=4590387 dev=08:02 mode=0100644 ouid=33 ogid=33 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.399:53343): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.399:53344): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ffdb8332c70 a2=0 a3=0 items=1 ppid=739295 pid=767949 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762984.399:53344): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.399:53344): item=0 name="/etc/php/5.3/cgi/php.ini" inode=10491885 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.399:53344): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.399:53345): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f18ef0f181a a2=80000 a3=0 items=1 ppid=739295 pid=767949 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762984.399:53345): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.399:53345): item=0 name="/etc/nsswitch.conf" inode=10491856 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.399:53345): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.399:53346): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f18ef71fbe7 a2=80000 a3=0 items=1 ppid=739295 pid=767949 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762984.399:53346): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.399:53346): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.399:53346): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.399:53347): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f18ef71fbe7 a2=80000 a3=0 items=1 ppid=739295 pid=767949 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762984.399:53347): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.399:53347): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.399:53347): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.399:53348): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7f18ee47b016 a2=80000 a3=0 items=1 ppid=739295 pid=767949 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762984.399:53348): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.399:53348): item=0 name="/etc/services" inode=10491929 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.399:53348): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.399:53349): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ffdb8333e10 a2=0 a3=0 items=1 ppid=739295 pid=767949 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762984.399:53349): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.399:53349): item=0 name="/var/www/html/todo/.user.ini" inode=4591318 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.399:53349): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.399:53350): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=56034f6f31b8 a2=0 a3=0 items=1 ppid=739295 pid=767949 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762984.399:53350): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762984.399:53350): item=0 name="/var/www/html/todo/resize.php" inode=4591377 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.399:53350): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762984.399:53351): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=56034f6f24d0 a2=0 a3=0 items=1 ppid=739295 pid=767949 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762984.399:53351): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762984.399:53351): item=0 name="/var/www/html/todo/icons/_64_elephant.png" inode=4590452 dev=08:02 mode=0100644 ouid=33 ogid=33 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762984.399:53351): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762986.715:53352): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fa70ab9bbe7 a2=80000 a3=0 items=1 ppid=739298 pid=767950 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762986.715:53352): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762986.715:53352): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762986.715:53352): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762986.723:53353): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ffdc541fb30 a2=0 a3=0 items=1 ppid=739298 pid=767950 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762986.723:53353): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762986.723:53353): item=0 name="/etc/php/5.3/cgi/php.ini" inode=10491885 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762986.723:53353): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762986.723:53354): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fa70a56d81a a2=80000 a3=0 items=1 ppid=739298 pid=767950 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762986.723:53354): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762986.723:53354): item=0 name="/etc/nsswitch.conf" inode=10491856 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762986.723:53354): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762986.723:53355): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fa70ab9bbe7 a2=80000 a3=0 items=1 ppid=739298 pid=767950 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762986.723:53355): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762986.723:53355): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762986.723:53355): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762986.723:53356): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fa70ab9bbe7 a2=80000 a3=0 items=1 ppid=739298 pid=767950 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762986.723:53356): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762986.723:53356): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762986.723:53356): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762986.723:53357): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7fa7098f7016 a2=80000 a3=0 items=1 ppid=739298 pid=767950 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762986.723:53357): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762986.723:53357): item=0 name="/etc/services" inode=10491929 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762986.723:53357): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762986.723:53358): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ffdc5420cd0 a2=0 a3=0 items=1 ppid=739298 pid=767950 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762986.723:53358): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762986.723:53358): item=0 name="/var/www/html/todo/.user.ini" inode=4591318 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762986.723:53358): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762986.723:53359): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=562f719dfc80 a2=0 a3=0 items=1 ppid=739298 pid=767950 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762986.723:53359): cwd="/usr/local/apache2/cgi-bin"
+type=PATH msg=audit(1699762986.723:53359): item=0 name="/var/www/html/todo/logout.php" inode=4591367 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762986.723:53359): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762986.723:53360): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=562f719e0c70 a2=0 a3=0 items=1 ppid=739298 pid=767950 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762986.723:53360): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762986.723:53360): item=0 name="/var/www/html/todo/common.php" inode=4591335 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762986.723:53360): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762986.723:53361): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=562f719e0ed0 a2=0 a3=0 items=1 ppid=739298 pid=767950 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762986.723:53361): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762986.723:53361): item=0 name="/var/www/html/todo/badapp.php" inode=4591326 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762986.723:53361): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762986.723:53362): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=562f719f2cb0 a2=0 a3=0 items=1 ppid=739298 pid=767950 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762986.723:53362): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762986.723:53362): item=0 name="/var/www/html/todo/session.php" inode=4591378 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762986.723:53362): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762986.723:53363): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7fa70a56d6a1 a2=80000 a3=0 items=1 ppid=739298 pid=767950 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762986.723:53363): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762986.723:53363): item=0 name="/etc/host.conf" inode=10491819 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762986.723:53363): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762986.723:53364): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=7fa70ab9bbe7 a2=80000 a3=0 items=1 ppid=739298 pid=767950 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule1"
+type=CWD msg=audit(1699762986.723:53364): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762986.723:53364): item=0 name="/etc/ld.so.cache" inode=10492229 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762986.723:53364): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762986.727:53365): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=562f71a1dc90 a2=0 a3=0 items=1 ppid=739298 pid=767950 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762986.727:53365): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762986.727:53365): item=0 name="/var/www/html/todo/menu.php" inode=4591368 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762986.727:53365): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SYSCALL msg=audit(1699762986.727:53366): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=562f719e2e98 a2=0 a3=0 items=1 ppid=739298 pid=767950 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="php-5.3.3.bin" exe="/usr/local/apache2/cgi-bin/php-5.3.3.bin" subj=unconfined key="rule2"
+type=CWD msg=audit(1699762986.727:53366): cwd="/var/www/html/todo"
+type=PATH msg=audit(1699762986.727:53366): item=0 name="/var/www/html/todo/footer.php" inode=4591354 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699762986.727:53366): proctitle="/usr/local/apache2/cgi-bin/php-5.3.3.bin"
+type=SERVICE_START msg=audit(1699763020.259:53367): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+type=SERVICE_STOP msg=audit(1699763031.003:53368): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+type=USER_END msg=audit(1699763114.283:53369): pid=767889 uid=0 auid=70601614 ses=2343 subj=unconfined msg='op=PAM:session_close grantors=pam_env,pam_env,pam_permit,pam_umask,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+type=CRED_DISP msg=audit(1699763114.283:53370): pid=767889 uid=0 auid=70601614 ses=2343 subj=unconfined msg='op=PAM:setcred grantors=pam_permit,pam_mount acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+type=SYSCALL msg=audit(1699763171.447:53371): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=560ead5d1520 a2=241 a3=1b6 items=2 ppid=761661 pid=767970 auid=70601614 uid=70601614 gid=70600513 euid=70601614 suid=70601614 fsuid=70601614 egid=70600513 sgid=70600513 fsgid=70600513 tty=pts1 ses=2343 comm="bash" exe="/usr/bin/bash" subj=unconfined key="rule1"
+type=CWD msg=audit(1699763171.447:53371): cwd="/home/makisuna@SSN/badtodo/apache_volume/etc"
+type=PATH msg=audit(1699763171.447:53371): item=0 name="/home/makisuna@SSN/badtodo/apache_volume/etc" inode=10491732 dev=08:02 mode=040755 ouid=70601614 ogid=70600513 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1699763171.447:53371): item=1 name="audit_log_normal" inode=10491568 dev=08:02 mode=0100644 ouid=70601614 ogid=70600513 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1699763171.447:53371): proctitle="-bash"
+type=AVC msg=audit(1699763171.447:53372): apparmor="ALLOWED" operation="open" profile="/usr/sbin/sssd" name="/proc/767970/cmdline" pid=1054 comm="sssd_nss" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+type=AVC msg=audit(1699763171.455:53373): apparmor="ALLOWED" operation="open" profile="/usr/sbin/sssd" name="/proc/767970/cmdline" pid=1055 comm="sssd_pam" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+type=USER_ACCT msg=audit(1699763171.471:53374): pid=767970 uid=70601614 auid=70601614 ses=2343 subj=unconfined msg='op=PAM:accounting grantors=pam_permit,pam_sss acct="makisuna" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+type=USER_CMD msg=audit(1699763171.471:53375): pid=767970 uid=70601614 auid=70601614 ses=2343 subj=unconfined msg='cwd="/home/makisuna@SSN/badtodo/apache_volume/etc" cmd=7461696C202D6E20373530202F7661722F6C6F672F61756469742F61756469742E6C6F67 terminal=pts/1 res=success'
+type=CRED_REFR msg=audit(1699763171.471:53376): pid=767970 uid=0 auid=70601614 ses=2343 subj=unconfined msg='op=PAM:setcred grantors=pam_permit,pam_mount,pam_cap acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+type=USER_START msg=audit(1699763171.471:53377): pid=767970 uid=0 auid=70601614 ses=2343 subj=unconfined msg='op=PAM:session_open grantors=pam_env,pam_env,pam_permit,pam_umask,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
